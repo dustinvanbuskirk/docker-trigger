@@ -8,3 +8,4 @@ Trigger Repository
 - trigger 5 removed no-cache from CLI added to Docker image build step in docker-builder Codefresh YAML
 - trigger 6 additional trigger no changes, changes above resulted in complete docker image rebuild
 - trigger 7 removing no_cache option from docker build step leaving cf_no_cache having both enabled rebuilds image from beginning
+- trigger 8 removing cf_no_cache adding no_cache back
